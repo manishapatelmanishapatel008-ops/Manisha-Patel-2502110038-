@@ -1,12 +1,31 @@
-# Manisha-Patel-2502110038- LAB-02
+# Manisha-Patel-2502110038- 
+LAB-02
+
+
 IT12
+
+
 https://app.edublocks.org/project/UR3QgRP7LvUYVfkonU5wVq5Pu052/HAdWb2x3auJikRuMhAMR
+
+
 IT10
+
+
 https://app.edublocks.org/project/UR3QgRP7LvUYVfkonU5wVq5Pu052/SSTx0DsRVa08PQaA7wYt
+
+
 IT08
+
+
 https://app.edublocks.org/project/UR3QgRP7LvUYVfkonU5wVq5Pu052/KG9ZkFchrTRU97gxtb68
+
+
 IT06
+
+
 https://app.edublocks.org/project/UR3QgRP7LvUYVfkonU5wVq5Pu052/lh8V1EEzv3coOJtb7dG7
+
+
 
 LAB-03
 
