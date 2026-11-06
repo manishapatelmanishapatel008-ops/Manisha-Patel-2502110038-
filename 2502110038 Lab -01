@@ -1,0 +1,129 @@
+
+IT-12
+when green flag clicked
+go to x: 0 y: 0
+say "Welcome! Let's make chai." for 2 seconds
+move 50 steps
+say "Take a cup." for 2 seconds
+wait 1 seconds
+move 50 steps
+say "Add tea and sugar." for 2 seconds
+wait 1 seconds
+say "Pour hot milk." for 2 seconds
+move 50 steps
+say "Your chai is ready!" for 2 seconds
+
+IT-10
+when green flag clicked
+set Parts Produced to 0
+
+repeat 5
+    move 100 steps
+    say "STAMP!" for 1 seconds
+    change Parts Produced by 1
+    move -100 steps
+
+IT-08
+when green flag clicked
+ask "Enter part diameter:" and wait
+set Diameter to answer
+if <(Diameter >= 45) and (Diameter <= 55)> then
+    say "ACCEPT - Part is within limits"
+else
+    say "REJECT - Part is outside limits"
+
+IT-06
+when green flag clicked
+
+set Accepted to 0
+set Rejected to 0
+repeat 10
+
+    set Diameter to pick random 40 to 60
+
+    if <(Diameter >= 45) and (Diameter <= 55)> then
+
+        change Accepted by 1
+        say "ACCEPT" for 1 seconds
+
+    else
+
+        change Rejected by 1
+        say "REJECT" for 1 seconds
+
+    end
+
+end
+say (join "10 inspected. "
+    (join Accepted
+        (join " accepted, "
+            (join Rejected " rejected."))))
+
+
+Digital Notes:
+WORK ORDER 01 — THE TOOL ROOM
+
+Course: CS-1281 · Python Programming Lab | Department: Production Engineering
+Institution: VSSUT, Burla | Date: 24 July 2026 | Time: 9:00–11:00 AM
+Venue: Lab A-11 | Instructor: Lt. Birendra Kumar Barik | Revision: Rev A
+
+1. Objective
+
+To develop programming logic using Scratch Studio, covering sequence, loops, conditional statements and half-splitting logic through practical projects.
+
+2. Five Phases (120 Minutes)
+Phase	Activity	Time
+1	Tooling and setup	10 min
+2	Programming operations	60 min
+3	Inspection and testing	20 min
+4	Dispatch and documentation	20 min
+5	Teach-back and viva	10 min
+3. Tooling Checklist
+Computer, browser and Scratch login ready.
+Joined class Scratch Studio.
+GitHub accounts created for both partners.
+Lab record and partner details entered.
+Driver and Navigator roles assigned (swap every 15 minutes).
+4. Programming Tasks
+Grade	Task	Requirements
+IT12	Route Sheet Replay	Minimum 6 Scratch blocks using move, say and wait.
+IT10	Stamping Cycle	Move–Stamp–Return using repeat and a production counter.
+IT8	Go/No-Go Inspector	Random/input diameter, if/else, ACCEPT or REJECT.
+IT6	Batch Report	Inspect 10 random parts; loop, if/else and two counters for accepted/rejected parts.
+
+Final output: 10 inspected · N accepted · M rejected
+
+5. Inspection and Testing
+Cold Start: Run twice and check counter reset.
+Boundary Test: Test values exactly at the limits.
+Silent Watcher: Understand output without explanation.
+Prediction Check: Predict final counter values before execution.
+
+Defect Log: Defect: __________ Cause: __________ Fix: __________
+
+6. Deliverables
+Best Scratch project shared to class studio.
+Lab record completed with aim, blocks, script sketch and defect log.
+Both GitHub usernames recorded.
+Scratch project link added to personal Google Site.
+7. Pair Details
+
+Partner A: __________ | Roll No.: __________ | GitHub: __________
+
+Partner B: __________ | Roll No.: __________ | GitHub: __________
+
+Inspecting Pair: ____________________
+
+8. Learning Outcomes
+
+Understand sequence, loops, if/else conditions, variables, counters, testing and project sharing using Scratch and GitHub.
+
+9. Assessment
+Component	Marks
+Attendance	10
+Performance	10
+Lab Record	10
+Total	30/30
+
+CS-1281 · Work Order 01 · Production Engineering · VSSUT Burla
+Lt. Birendra Kumar Barik · Rev A
