@@ -1,0 +1,81 @@
+https://colab.research.google.com/drive/1m41jsMkds5zhjO5UzWN6lV-xcoAcI5qb?usp=sharing
+
+
+Digital Notes:
+WORK ORDER 03 — THE REAL MACHINES
+
+Course: CS-1281 · Python Programming Lab | Department: Production Engineering
+Institution: VSSUT, Burla | Date: 07 August 2026 | Time: 9:00–11:00 AM
+Venue: Lab A-11 | Instructor: Lt. Birendra Kumar Barik | Revision: Rev A
+
+1. Objective
+
+To develop and execute Python programs using IDLE and Google Colab, practise manual coding, debugging, testing and commit completed .py files to individual GitHub repositories.
+
+2. Five Phases (120 Minutes)
+Phase	Activity	Time
+1	Tool commissioning	15 min
+2	Typed Python programming	55 min
+3	Inspection and testing	20 min
+4	GitHub commit and lab record	20 min
+5	Teach-back and viva	10 min
+3. Tooling Checklist
+IDLE opened; Shell tested using 2 + 2.
+Google Colab opened; print("cloud OK") executed.
+GitHub signed in; cs1281-labs repository accessible.
+Lab record updated with date, work order and partner details.
+Handwritten batch inspector from WO-02 available.
+Driver and Navigator roles assigned (swap every 15 minutes).
+4. Two Programming Machines
+IDLE	Google Colab
+Offline Python environment	Cloud-based Python environment
+Save as .py file	Save notebook to Google Drive
+Run using F5	Run using Shift + Enter
+File → New File	New code cell
+File → Save As	File → Download → .py
+5. Programming Tasks
+Grade	Task	Requirements
+IT12	Hello, Shop Floor	Input operator name, greet them; save as lab03_hello.py. Run in IDLE and Colab.
+IT10	Batch Inspector	Inspect 10 diameters using float(input()); classify as ACCEPT, REWORK or SCRAP using three counters.
+IT8	Pallet Clerk	Input total parts and box size; calculate full boxes (//), loose parts (%) and audit using boxes*size + loose == total.
+IT6	End of Shift	Inspect batch, pack accepted parts into boxes of 4 and generate a complete shift report. Save as lab03_shift.py.
+6. Inspection and Debugging
+Test invalid input such as twentyfive and observe ValueError.
+Test boundary values 25.05 and 24.95.
+Check audit output for 0 and exactly one full box.
+Perform blind code reading and predict final output.
+Record every defect with description, cause and fix.
+
+Important Errors: TypeError – incompatible data types; ValueError – invalid value conversion.
+
+7. GitHub Commit and Deliverables
+Save completed program as a .py file.
+Commit lab03_inspector.py to individual cs1281-labs repositories.
+Commit higher-tier programs if completed.
+Record final code and ValueError traceback by hand.
+Complete defect log.
+Add commit URLs to personal Google Site under Lab 03.
+
+Both partners must commit independently to their own repositories.
+
+8. Learning Outcomes
+
+Understand Python syntax, input/output, type conversion, loops, conditional statements, arithmetic operators, debugging, IDLE, Google Colab and GitHub version control.
+
+9. Pair Details
+
+Partner A: __________ | Roll No.: __________ | GitHub: __________
+
+Partner B: __________ | Roll No.: __________ | GitHub: __________
+
+Commit URL: __________________________________
+
+10. Assessment
+Component	Marks
+Attendance	10
+Performance	10
+Lab Record	10
+Total	30
+
+CS-1281 · Work Order 03 · Production Engineering · VSSUT Burla
+Lt. Birendra Kumar Barik · Rev A
