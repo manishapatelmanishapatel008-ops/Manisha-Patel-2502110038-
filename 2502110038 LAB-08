@@ -1,0 +1,54 @@
+Google colab link:
+https://colab.research.google.com/drive/1CLPgE9xer9d7T4q1W0YaOe_oDvYdv35Q?usp=sharing
+
+Digital Notes:
+
+Experiment: The Abuse Rig – Exception Handling and Program Testing
+Course: CS-1281 | Python Programming Lab
+Department: Production Engineering, VSSUT Burla
+Date: 11-09-2026
+
+1. Aim
+To understand Python exception handling and improve program reliability by testing parsers and machine classes with invalid inputs.
+
+2. Objectives
+IT12: Create eight test cases using invalid and unexpected inputs.
+IT10: Harden the log parser using named exceptions and a rejects list.
+IT8: Protect the machine class using custom exceptions.
+IT6: Develop an automated testing function using run_tests().
+3. Concepts Used
+Exception handling (try, except)
+ValueError, TypeError, IndexError, KeyError
+Custom exceptions
+raise statement
+Input validation
+Rejects list and error reporting
+Automated testing and pass/fail results
+4. Testing and Certification
+The program is tested against eight hostile inputs, including:
+
+Blank input and empty records.
+Missing fields.
+Incorrect numerical values.
+Invalid data types.
+Unexpected and out-of-range readings.
+Missing dictionary keys.
+Invalid machine operating commands.
+Zero or invalid values during calculations.
+5. Error Handling
+Use named exceptions instead of bare except.
+Store rejected records with their error reasons.
+Prevent invalid readings from affecting averages.
+Use custom exceptions such as SpecViolation.
+Ensure one faulty job does not stop the entire fleet.
+6. Certification Criteria
+All eight tests must pass.
+No bare except statements.
+Valid data must produce the same output as before.
+Rejects table must display faulty records and reasons.
+Final result must show PASS or FAIL for each test.
+7. Result
+Successfully studied exception handling, input validation, custom exceptions and automated testing to improve Python program reliability.
+
+8. Conclusion
+Exception handling makes industrial programs safer and more reliable by identifying errors, rejecting invalid data and preventing unexpected program termination.
