@@ -1,0 +1,60 @@
+https://colab.research.google.com/drive/1k072522MVwGFQ-KF9r9_-rtRO1fs9lxf?usp=sharing
+
+Digital Notes:
+
+Experiment: Model a Machine Using Python Classes
+Course: CS-1281 | Python Programming Lab
+Department: Production Engineering, VSSUT Burla
+Date: 04-09-2026
+
+1. Aim
+To understand Object-Oriented Programming (OOP) and develop a machine model using Python classes and objects.
+
+2. Objectives
+IT12: Create a machine class with attributes, constructor, __str__() and working methods.
+IT10: Implement private attributes, validation and status getter methods.
+IT8: Process a batch of 10 jobs and generate a shift report.
+IT6: Manage three machines using a list and generate a fleet report.
+3. Concepts Used
+Classes and objects
+Constructor (__init__)
+Attributes and methods
+Encapsulation and private variables
+Validation and getter methods
+Lists and loops
+max() and lambda functions
+Python modules and imports
+4. Machine Design
+Example: Hydraulic Press
+
+Attributes:
+
+Machine name
+Capacity
+Operating speed
+Machine status
+Parts produced
+Methods:
+
+start() – Starts the machine.
+stop() – Stops the machine.
+operate() – Processes a part.
+status() – Displays machine condition.
+__str__() – Displays machine information.
+5. Inspection and Testing
+Check machine initialization.
+Test commands beyond machine capacity.
+Prevent operation when the machine is stopped.
+Check independent objects.
+Test whether private data can be modified externally.
+6. Fleet Management
+Three machine objects are stored in a list. Jobs are allocated to available machines, and the final report displays:
+
+Parts produced by each machine.
+Total plant production.
+Busiest machine.
+7. Result
+Successfully studied Python classes, objects, encapsulation and methods to develop a machine model and manage production operations.
+
+8. Conclusion
+Object-Oriented Programming helps represent real industrial machines through reusable classes and objects. It improves code organization, data protection and maintainability.
