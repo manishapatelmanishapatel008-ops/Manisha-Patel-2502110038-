@@ -1,0 +1,124 @@
+IT-12
+counter = 0
+
+for i in range(5):
+    counter += 1
+
+print("Ceremony completed")
+print(counter)
+
+IT-10
+name = input("Enter name: ")
+print("Welcome", name)
+
+parts = int(input("Enter number of parts: "))
+
+for i in range(1, parts + 1):
+    print("Part", i)
+
+IT-08
+d = float(input("Enter diameter: "))
+
+if d > 25.05:
+    print("REJECT - Too big")
+elif d < 24.95:
+    print("REJECT - Too small")
+else:
+    print("ACCEPT")
+
+IT-06
+accepted = 0
+rejected = 0
+
+for i in range(10):
+    d = float(input("Enter diameter: "))
+
+    if d > 25.05 or d < 24.95:
+        rejected += 1
+    else:
+        accepted += 1
+
+print("10 inspected")
+print(accepted, "accepted")
+print(rejected, "rejected")
+
+
+Digital Notes:
+WORK ORDER 02 — FIRST PYTHON RUNS · FIRST COMMIT
+
+Course: CS-1281 · Python Programming Lab | Department: Production Engineering
+Institution: VSSUT, Burla | Date: 31 July 2026 | Time: 9:00–11:00 AM
+Venue: Lab A-11 | Instructor: Lt. Birendra Kumar Barik | Revision: Rev A
+
+1. Objective
+
+To develop basic Python programs using EduBlocks, understand generated Python code, perform testing, and upload the first .py file to an individual GitHub repository.
+
+2. Five Phases (120 Minutes)
+Phase	Activity	Time
+1	Tooling and setup	10 min
+2	Programming operations	55 min
+3	Inspection and testing	20 min
+4	First GitHub commit and record	25 min
+5	Teach-back and viva	10 min
+3. Tooling Checklist
+Both partners logged into EduBlocks (Lessons 1–6).
+Both partners logged into GitHub.
+Created individual public repositories named cs1281-labs with README.
+Lab record updated with date, work order and partner details.
+Driver and Navigator roles assigned (swap every 15 minutes).
+4. Programming Tasks — EduBlocks
+Grade	Task	Requirements
+IT12	Ceremony Reenacted	Counter, repeat 5 and final report; explain generated Python line by line.
+IT10	Talking Machine	Use input() for name and parts; greet operator and count up to the entered number.
+IT8	Inspector, Typed	Accept/reject diameter against 25.00 ± 0.05; report whether rejected for too big or too small.
+IT6	Shift Report	Inspect 10 parts, maintain accepted/rejected counters and display final report.
+
+Important: Predict the generated Python code before running the blocks. Understand that input() returns a string.
+
+5. Inspection and Testing
+Blind Panel: Explain the Python code without seeing the blocks.
+Rude Operator: Test zero, text and empty input.
+Boundary Test: Test exactly 25.05.
+Cold Start: Run twice and verify counters reset.
+Record every defect with its description, cause and fix.
+6. First GitHub Commit
+Open the Python panel in EduBlocks.
+Copy the complete Python program.
+Open your cs1281-labs GitHub repository.
+Select Add file → Create new file.
+Name the file lab02_inspector.py.
+Paste the Python code.
+Write a meaningful commit message.
+Click Commit changes.
+Copy the file URL into your lab record and Google Site.
+
+Both partners must commit the program to their own repositories.
+
+7. Deliverables
+Best Python program committed to individual GitHub repositories.
+Python code copied by hand into lab record.
+Defect log completed.
+Commit URL added to personal Google Site.
+One incorrect prediction and its explanation recorded.
+8. Learning Outcomes
+
+Understand Python input, variables, loops, conditional statements, counters, generated code, debugging and GitHub commits.
+
+9. Pair Details
+
+Partner A: __________ | Roll No.: __________ | GitHub: __________
+
+Partner B: __________ | Roll No.: __________ | GitHub: __________
+
+Commit Message: __________________________________
+
+10. Assessment
+Component	Marks
+Attendance	10
+Performance	10
+Lab Record	10
+Total	30
+
+CS-1281 · Work Order 02 · Production Engineering · VSSUT Burla
+Lt. Birendra Kumar Barik · Rev A
